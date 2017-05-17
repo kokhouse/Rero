@@ -4,7 +4,7 @@ the multi-purpose discord bot, but yakno on fb.
 
 
 ![Python](https://img.shields.io/badge/python-2.7-blue.svg)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/voqz/reroforfacebook/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/voqz/rero/master/LICENSE)
 
 Messenger is now used by 900 million people every month. With the launch of Send / Receive API, bots are about to [take](http://time.com/4291214/facebook-messenger-bots/) [over](http://www.computerworld.com/article/3055588/social-media/an-army-of-chatbots-will-take-over-facebook-here-s-why.html).
 
