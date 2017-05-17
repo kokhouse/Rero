@@ -56,33 +56,6 @@ More sample queries can be found [here](https://github.com/voqz/reroforfacebook/
 
 Rero is at your service [here](http://m.me/Rerobot).
 
-### Local Development / Testing
-
-1. Clone this repo.
-2. Linux:  
-a) Debian (Ubuntu, Linux Mint, etc.): `sudo apt-get install python-dev libffi-dev libssl-dev`  
-b) Arch Linux: `sudo pacman -S python2 libffi openssl`  
-c) Fedora: `sudo yum install python-devel libffi-devel openssl-devel`  
-Windows: These should already be pre-installed in your Python bundle.  
-Mac/OS X:  
-a) If you install Python using brew, the relevant headers are already installed for you. In other words, you don't need python-devel.  
-b) `brew install pkg-config libffi`  
-`export PKG_CONFIG_PATH=/usr/local/Cellar/libffi/3.0.13/lib/pkgconfig/` # May change with libffi version  
-`pip install cffi`  
-c) `brew install libtins`  
-3. `pip install -r requirements.txt`
-4. `python rero.py`
-5. Visit the following URLs to see results:  
-`http://localhost:5000/process/?q=<<YOUR_QUERY>>` returns the intent of the query.  
-`http://localhost:5000/search/?q=<<YOUR_QUERY>>` returns the search result of the query.
-
-The "process" endpoint returns what module the system classifies your query into, say a dictionary query or a song search, etc. Visit the following URLs to understand the output format:  
-`http://localhost:5000/process/?q=tell%20me%20a%20joke`  
-`http://localhost:5000/process/?q=time%20in%20seattle`  
-`http://localhost:5000/process/?q=convert%2025%20usd%20to%20eur`  
-The "search" endpoint returns the actual bot output, that you get when you interact with the bot using that query.
-
-Note that for the search query to work, you have to set your own key (of the module that you want to test) in config.py  
 
 If you want a public endpoint, use the below button to deploy on Heroku and fill the relevant API keys that you would like to use:
 
