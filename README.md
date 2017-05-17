@@ -49,14 +49,10 @@ More sample queries can be found [here](https://github.com/voqz/rero/tree/master
 ├── modules/tests/   # tests go here
 ├── data/            # home for shared data
 ├── templates/       # for sending structured messages
-└── rero.py        # the main bot
+└── rero.py          # the main bot
 ```
 
 ### Usage
 
 Rero is at your service [here](http://m.me/Rerobot).
 
-
-If you want a public endpoint, use the below button to deploy on Heroku and fill the relevant API keys that you would like to use:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
