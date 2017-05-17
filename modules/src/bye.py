@@ -8,7 +8,7 @@ def process(input, entities=None):
         'Bye to you as well, sir.',
         'It was my pleasure talking to you.',
         'Oh, please do not go!',
-		' cya nibba',
+		'cya ni🅱🅱a',
     ]
     if entities is not None:
         if 'sender' in entities and 'first_name' in entities['sender']:
