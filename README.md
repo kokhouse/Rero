@@ -22,15 +22,15 @@ Feel free to add to this list by opening an Issue / Pull Request.
 | currency | usd to eur rate | Fixer.io |
 | dice | roll a die | --- |
 | dictionary | define comfort | Words API |
-| fact | tell me a fact | [Offline](https://github.com/voqz/reroforfacebook/blob/master/data/facts.json) |
+| fact | tell me a fact | [Offline](https://github.com/voqz/rero/blob/master/data/facts.json) |
 | hello | Hi, Rero! | --- |
 | help | What can you do? | --- |
-| joke | tell me a joke | [Offline](https://github.com/voqz/reroforfacebook/blob/master/data/jokes.json) |
+| joke | tell me a joke | [Offline](https://github.com/voqz/rero/blob/master/data/jokes.json) |
 | lyrics | paradise lyrics | Powered by musiXmatch |
 | movie | zootopia movie plot | OMDb API |
 | music | songs by one direction | Spotify |
 | news | latest news | Powered by NewsAPI |
-| quote | random quote | [Offline](https://github.com/voqz/reroforfacebook/blob/master/data/quotes.json) |
+| quote | random quote | [Offline](https://github.com/voqz/rero/blob/master/data/quotes.json) |
 | request | report a bug <br> request a feature | --- |
 | time | time in seattle | TimeZoneDB API |
 | url | shorten google.com <br> expand http://goo.gl/7aqe | Google URL Shortener |
@@ -39,7 +39,7 @@ Feel free to add to this list by opening an Issue / Pull Request.
 | wiki | wiki html | MediaWiki API |
 | xkcd | show a random xkcd comic | [xkcd](https://xkcd.com/json.html) |
 
-More sample queries can be found [here](https://github.com/voqz/reroforfacebook/tree/master/modules/tests).
+More sample queries can be found [here](https://github.com/voqz/rero/tree/master/modules/tests).
 
 ### Structure
 
