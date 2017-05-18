@@ -19,4 +19,3 @@ def process(input, entities=None):
         'success': True
     }
     return output
-🅱
