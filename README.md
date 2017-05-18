@@ -56,3 +56,5 @@ More sample queries can be found [here](https://github.com/voqz/rero/tree/master
 
 Rero is at your service [here](http://m.me/Rerobot).
 
+### Privacy Policy
+I don't store ur info nibbas
